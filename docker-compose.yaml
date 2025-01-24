@@ -3,9 +3,7 @@ name: simple
 services:
   simple:
     image: andiwahyu27/simple-andi
-    build:
-      context: .
-      dockerfile: Dockerfile
+    build: ./app
     ports:
       - "8080:8080"
     environment:
