@@ -2,7 +2,7 @@ name: simple
 
 services:
   simple:
-    image: andiwahyu27/simple-andi
+    image: andiw27/simple-andi
     build: ./app
     ports:
       - "8080:8080"
